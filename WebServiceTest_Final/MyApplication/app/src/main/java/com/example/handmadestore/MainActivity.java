@@ -33,6 +33,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
+    static final String SERVER_IP = "172.20.42.137";
     String[] list;
     ArrayAdapter<String> adapter;
     ListView lv;
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected List<Product> doInBackground(Void... voids) {
             OkHttpClient client = new OkHttpClient();
-            Request request = new Request.Builder().url("http://192.168.5.110:8080/gk/api-admin-product").build();
+            Request request = new Request.Builder().url("http://"+SERVER_IP+":8080/gk/api-admin-product").build();
             List<Product> products = new ArrayList<>();
             try {
                 Response resp = client.newCall(request).execute();

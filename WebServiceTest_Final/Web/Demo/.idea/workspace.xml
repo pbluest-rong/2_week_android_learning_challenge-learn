@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3e5ebe4-6c25-4463-977d-f935f797475e" name="Changes" comment="" />
+    <list default="true" id="f3e5ebe4-6c25-4463-977d-f935f797475e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../WebServiceTest/MyApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebServiceTest/MyApplication/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyApplication/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gk.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gk.war" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JDBIConnector.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.20.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/NLU/7.Mobile/Learn/WebServiceTest_Final/Web/Demo/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JDBIConnector.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.20.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/NLU/7.Mobile/Learn/WebServiceTest_Final/Web/Demo/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NLU\7.Mobile\Learn\WebServiceTest_Final\Web\Demo\src\main\webapp" />
@@ -79,10 +85,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model.service" />
+      <recent name="model.dao" />
+      <recent name="model.bean" />
       <recent name="controller" />
       <recent name="dao" />
-      <recent name="bean" />
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.20">
@@ -225,6 +232,8 @@
       <workItem from="1715566322608" duration="89000" />
       <workItem from="1715566704100" duration="468000" />
       <workItem from="1715583821110" duration="3331000" />
+      <workItem from="1715597022239" duration="11000" />
+      <workItem from="1715680179761" duration="3884000" />
     </task>
     <servers />
   </component>
