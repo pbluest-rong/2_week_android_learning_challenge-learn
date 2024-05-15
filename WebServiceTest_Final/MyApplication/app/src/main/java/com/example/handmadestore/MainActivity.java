@@ -33,7 +33,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-    static final String SERVER_IP = "172.20.42.137";
+    static final String SERVER_IP = "10.51.74.27";
     String[] list;
     ArrayAdapter<String> adapter;
     ListView lv;

@@ -63,7 +63,7 @@ public class ProductPage extends AppCompatActivity {
         @Override
         protected List<Product> doInBackground(Void... voids) {
             OkHttpClient client = new OkHttpClient();
-            Request request = new Request.Builder().url("http://172.20.42.137:8080/gk/api-admin-product").build();
+            Request request = new Request.Builder().url("http://" + MainActivity.SERVER_IP + ":8080/gk/api-admin-product").build();
             List<Product> products = new ArrayList<>();
             try {
                 Response resp = client.newCall(request).execute();

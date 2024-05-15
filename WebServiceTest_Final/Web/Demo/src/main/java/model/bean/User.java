@@ -1,6 +1,7 @@
 package model.bean;
 
 import java.io.Serializable;
+import java.net.InetAddress;
 import java.sql.Timestamp;
 
 public class User implements Serializable {
