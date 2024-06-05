@@ -11,11 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f3e5ebe4-6c25-4463-977d-f935f797475e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../../WebServiceTest/MyApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebServiceTest/MyApplication/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyApplication/app/src/main/java/com/example/handmadestore/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyApplication/app/src/main/java/com/example/handmadestore/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyApplication/app/src/main/java/com/example/handmadestore/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyApplication/app/src/main/java/com/example/handmadestore/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductAPIs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gk.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gk.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +236,8 @@
       <workItem from="1715700867067" duration="623000" />
       <workItem from="1715736449187" duration="153000" />
       <workItem from="1715736615087" duration="2903000" />
+      <workItem from="1715740613552" duration="702000" />
+      <workItem from="1716266469529" duration="126000" />
     </task>
     <servers />
   </component>

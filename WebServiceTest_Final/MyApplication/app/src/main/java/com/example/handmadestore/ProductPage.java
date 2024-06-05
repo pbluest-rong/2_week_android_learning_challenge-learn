@@ -6,16 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.bumptech.glide.Glide;
 import com.example.handmadestore.bean.Image;
@@ -141,7 +135,7 @@ public class ProductPage extends AppCompatActivity {
         @Override
         protected void onPostExecute(List<Image> images) {
             txtPath.setText(productId + " - " + images.size() + " images");
-            Glide.with(context).load("http://" + MainActivity.SERVER_IP + ":8080/gk/" + images.get(0).getPath()).into(imgClickItem);
+            Picasso.with(context).load("http://" + MainActivity.SERVER_IP + ":8080/gk/" + images.get(0).getPath()).into(imgClickItem);
         }
     }
 }
